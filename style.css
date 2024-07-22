@@ -11,3 +11,38 @@
 .navbar-brand {
     margin-right: 1rem; /* Space between logo and navbar */
 }
+.img-container {
+    position: relative;
+    text-align: center;
+}
+.img-container img {
+    width: 100%;
+    height: auto;
+}
+.img-container h1 {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 3rem; /* Adjust as needed */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+.search-container {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    width: 35%;
+    gap: 10px;
+    justify-content: center;
+}
+.search-container select, .search-container button {
+    height: 40px;
+    font-size: 1rem;
+}
+
+.form-select {
+    width: 100px;
+}

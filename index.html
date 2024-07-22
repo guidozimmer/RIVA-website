@@ -13,7 +13,7 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light">
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
         <a class="navbar-brand" href="#">
             <img src="your-logo.png" alt="Firmenlogo">
         </a>
@@ -34,6 +34,26 @@
             </ul>
         </div>
     </nav>
+
+    <div class="img-container">
+        <img class="mainImg" src="./media/mansionImg.webp" alt="Mansion">
+        <h1>Ihr Zuhause,<br>Unser Versprechen</h1>
+        <div class="search-container">
+            <select class="form-select" aria-label="Ort">
+                <option selected>Ort wählen</option>
+                <option value="1">Ort 1</option>
+                <option value="2">Ort 2</option>
+                <option value="3">Ort 3</option>
+            </select>
+            <select class="form-select" aria-label="Wohnung">
+                <option selected>Wohnung wählen</option>
+                <option value="1">Wohnung 1</option>
+                <option value="2">Wohnung 2</option>
+                <option value="3">Wohnung 3</option>
+            </select>
+            <button type="button" class="btn btn-primary">Suchen</button>
+        </div>
+    </div>
 
     <!------------- scripts ------------->
     <!-- main.js -->
