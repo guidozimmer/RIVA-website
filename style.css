@@ -7,6 +7,7 @@
 }
 .navbar-brand img {
     max-height: 50px; /* Adjust based on your logo size */
+    margin-right: 50px;
 }
 .navbar-brand {
     margin-right: 1rem; /* Space between logo and navbar */
@@ -16,8 +17,9 @@
     text-align: center;
 }
 .img-container img {
-    width: 100%;
+    width: 90%;
     height: auto;
+    margin: 0px 30px;
 }
 .img-container h1 {
     position: absolute;
@@ -49,4 +51,31 @@
 
 .highlights {
     margin: 50px 40px;
+}
+
+.roboto-light {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .roboto-medium {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+
+.collapse {
+    padding: 0px 50px;
+}
+  
+.nav-item {
+    margin: 0px 30px;
 }
