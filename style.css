@@ -3,7 +3,7 @@
     font-size: 1.25rem; /* Increased font size */
 }
 .navbar {
-    background-color: transparent !important;
+    background-color: white !important;
 }
 .navbar-brand img {
     max-height: 50px; /* Adjust based on your logo size */
